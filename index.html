@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="https://echo.htmlacademy.ru/courses?" method="POST">
+      <div>
+        <label for="firstname">Ismingizni kiriting:</label>
+        <input
+          id="firstname"
+          type="text"
+          name="first_name"
+          placeholder="Enter your firstName"
+        />
+      </div>
+      <div>
+        <label for="lastname">Familangizni kiriting:</label>
+        <input
+          id="lastname"
+          type="text"
+          name="last_name"
+          placeholder="Enter your lastName"
+        />
+      </div>
+      <div>
+        <label for="email">Emailingizni kiriting:</label>
+        <input
+          id="email"
+          type="email"
+          name="your_email"
+          placeholder="Enter your email"
+          required
+        />
+      </div>
+      <div>
+        <label for="age">Yoshingizni kiriting:</label>
+        <input
+          id="age"
+          type="number"
+          name="your_age"
+          placeholder="Enter your Age"
+        />
+      </div>
+      <div>
+        <label for="phone">Telefoningizni kiriting:</label>
+        <input
+          id="phone"
+          type="tel"
+          name="your_phone"
+          placeholder="Enter your Phone"
+          required
+        />
+      </div>
+      <div>
+        <input type="date" name="date" />
+      </div>
+      <div>
+        <input type="time" name="time" />
+      </div>
+      <div>
+        <input type="file" name="your_file" />
+      </div>
+      <div>
+        <label for="password">Parolingizni kiriting:</label>
+        <input
+          id="password"
+          type="password"
+          name="your_password"
+          placeholder="Enter your password"
+          required
+        />
+      </div>
+
+      <br />
+      <button type="submit">Send</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
